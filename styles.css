@@ -40,3 +40,23 @@ img {
     width: 100px; /* Adjust the width as needed */
     height: auto;
 }
+.contact-info {
+    margin-top: 20px;
+    font-family: 'Quicksand', Arial, sans-serif;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.contact-info a {
+    color: #000;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.what-we-do {
+    margin-top: 10px;
+    font-family: 'Quicksand', Arial, sans-serif;
+    font-size: 1.15em;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 500;
+}
