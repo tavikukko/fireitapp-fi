@@ -15,7 +15,8 @@ body {
     background: linear-gradient(-45deg, #1a0000, #8b0000, #c00000, #ff4500);
     background-size: 400% 400%;
     animation: gradientShift 15s ease infinite;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
     position: relative;
 }
 
@@ -212,5 +213,36 @@ h1 {
     .contact-info a {
         padding: 12px 24px;
         font-size: 0.9em;
+    }
+}
+
+/* Landscape mobile - ensure content is scrollable */
+@media (max-height: 500px) {
+    body {
+        justify-content: flex-start;
+        padding: 20px 0 40px;
+    }
+    
+    .flame-icon {
+        width: 70px;
+    }
+    
+    h1 {
+        font-size: 36px;
+        margin-top: 10px;
+    }
+    
+    .what-we-do {
+        margin-top: 15px;
+    }
+    
+    .contact-info {
+        margin-top: 20px;
+    }
+    
+    .footer-accent {
+        position: relative;
+        bottom: auto;
+        margin-top: 20px;
     }
 }
